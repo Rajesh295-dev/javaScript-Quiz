@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>javaScriptQuiz</title>
+</head>
+
+<body>
+     <!-- Button to go to the highscore page -->
+    <a href="HighScore.html" id="go_score">View Highscores</a>
+    <!-- Time div -->
+    <div id="timeLimit"></div>
+
+    <!-- This is for introduction part/ first container -->
+    <div id="introContainer" >
+        <!-- Div for quiz content -->
+        <div id="questionsDiv">
+            <a>Coding Quiz Challenge</a>
+            <p id="fontSize">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                answers
+                will penalize your score/time by 10 seconds</p>
+            
+            <!-- Button to get start the quiz -->
+            <button id="startQuiz">Start Quiz</button>
+        </div>
+        
+        <ul id="choicesUl"></ul>
+
+    </div>
+
+
+   <!-- this div will diplay when all the question are answerd or time is up -->
+    <div class="space_Box" id = "allDone" style="display:none">
+        <h1>All Done!</h1>
+        <div id="quiz"> 
+         Enter you initials: <input type="text" name="name" id="myInput" placeholder="Your initials">
+        </div>
+         <button id="submitButton">Submit</button>
+    
+        <div id="alerts"> 
+        <div id = "totalRight"></div>
+        <div id = "timeOver"></div>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/javaScript/script.js"></script>
+
+
+</body>
+
+</html>
