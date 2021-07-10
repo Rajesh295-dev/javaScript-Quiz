@@ -108,10 +108,12 @@ function display(questionIndex) {
         var userQuestion = myQuestions[questionIndex].question;
         var userChoices = myQuestions[questionIndex].answers;
         quizContainer.textContent = userQuestion;
+        quizContainer.setAttribute("style", "width:100%;")
     }
     // To dispalay the relatives answers
     userChoices.forEach(function (answerList) {
         var listAnswer = document.createElement("li");
+        listAnswer.setAttribute("id", "listAnswer")
         listAnswer.textContent = answerList;
         quizContainer.appendChild(ulCreate);
         ulCreate.appendChild(listAnswer);
