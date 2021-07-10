@@ -36,7 +36,7 @@ The local storage is used here to store all the saved score. For the conveninet,
 ## Links :
 
 * Link for the deployed application [javaScript-Quiz](https://github.com/Rajesh295-dev/javaScript-Quiz.git)
-* Link for the Github repository [Host by Github](https://github.com/JHU-Project1/Project1)
+* Link for the Github repository [Host by Github](https://rajesh295-dev.github.io/javaScript-Quiz/)
 
 
 
