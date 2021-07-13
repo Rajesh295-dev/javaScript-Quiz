@@ -40,7 +40,7 @@ The local storage is used here to store all the saved score. For the conveninet,
 
 
 
-## Contributors:
+## Contributor:
 
 * [Rajesh Gautam](https://github.com/Rajesh295-dev)
 
